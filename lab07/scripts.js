@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             todoList.appendChild(listItem);
         }
     }
-    // การกดปุ่ม"เพิ่ม"
+    // การกดปุ่ม"เพิ่ม" 
     addButton.addEventListener("click", addTodo);
     // การกด Enter ใน input
     todoInput.addEventListener("keypress", function (event) {
@@ -60,4 +60,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     // แสดงรายการ Todo คร้ังแรก
     renderTodoList();
+    // เราสามารถเปลี่ยนสี html ได้ตามที่เราต้องการ เป็นภาษาที่ใช้งานได้ง่าย 
 });
